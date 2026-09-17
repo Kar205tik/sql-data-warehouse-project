@@ -58,6 +58,11 @@ sql-data-warehouse-project/
 │   ├── source_crm/
 │   └── source_erp/
 │
+├── Docs/                      # Project documentation & diagrams
+│   ├── data_architecture.png   # Overall architecture diagram
+│   ├── data_flow.png           # Data flow diagram
+│   └── data_models.png         # Star schema / data model diagram
+│
 ├── Scripts/                   # SQL scripts organized by layer
 │   ├── bronze/                 # Raw data ingestion (DDL + load procedures)
 │   ├── silver/                 # Data cleaning & transformation
