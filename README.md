@@ -1,8 +1,6 @@
 # 🏢 Data Warehouse and Analytics Project
 
-![SQL](https://img.shields.io/badge/SQL-Server-CC2927?style=flat&logo=microsoftsqlserver&logoColor=white)
-![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
-![License](https://img.shields.io/badge/License-MIT-blue)
+
 
 Welcome to the **Data Warehouse and Analytics Project** repository! 🚀
 
