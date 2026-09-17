@@ -1,0 +1,29 @@
+# SQL Data Warehouse Project - Requirements
+
+## Tools Used (All Free)
+- SQL Server Express        -> Lightweight SQL Server database engine
+- SQL Server Management Studio (SSMS)  -> GUI for managing SQL Server databases
+- Git & GitHub              -> Version control and collaboration
+- Draw.io                   -> Designing architecture and data flow diagrams
+- Notion (optional)         -> Project management and documentation
+
+## Technical Requirements to Run This Project Locally
+- SQL Server 2019 or later (or compatible version)
+- A SQL client: SSMS / Azure Data Studio / DBeaver
+- Git installed on your system
+- Sample CSV source files (source_crm and source_erp folders, kept in /dataset)
+
+## Project Structure Reference
+- dataset/source_crm      -> Raw CRM CSV files
+- dataset/source_erp      -> Raw ERP CSV files
+- scripts/bronze          -> Raw data ingestion scripts (DDL + load procedures)
+- scripts/silver          -> Data cleaning & transformation scripts
+- scripts/gold            -> Business-ready views (star schema)
+- tests                   -> Data quality check scripts (silver & gold)
+- README.md               -> Project overview and setup guide
+- .gitignore              -> Ignored files and folders
+
+## Notes
+- No Python/pip packages are required for this project since it is 100% SQL-based.
+- This file is kept for documentation purposes so anyone cloning the repo
+  knows exactly what tools/software they need to run the project.
